@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.taskListMain {
+  border: none;
+  border-radius: 10px;
+  background-color: #4c4b63;
+  height: 100%;
+  width: 400px;
+  text-align: center;
+}
+
+.taskInput {
+  height: 20px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.taskButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  width: 80px;
+  height: 40px;
+  color: white;
+  background-color: #5386e4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.taskList {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.taskCreated {
+    padding-bottom: 20px;
+}
